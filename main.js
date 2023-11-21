@@ -2,7 +2,7 @@ const header = document.GetElementById("clickerHeader");
 let clickers = 0;
 
 function click(){
-  clickers += 1;
+  clickers ++;
   header.InnerHTML = `CLICKERS: ${clickers}`;
 }
 
