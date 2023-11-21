@@ -1,4 +1,8 @@
 const header = document.GetElementById("clickerHeader");
+let clickers = 0;
 
-header.InnerHTML = "CLICKERS: 1";
+function click(){
+  clickers += 1;
+  header.InnerHTML = `CLICKERS: ${clickers}`;
+}
 
